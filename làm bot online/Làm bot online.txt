@@ -1,0 +1,38 @@
+Code mở bot:npm i discord.js@12.5.3
+
+
+Code làm bot online : let Discord = require("discord.js");
+let Client = new Discord.Client();
+
+
+
+Client.on("message", message => {
+
+if (message.content === "ping") {
+
+message.channel.send("pong")
+
+}
+
+})
+
+Client.on("message", message => {
+
+if (message.content === "meme") {
+
+message.channel.send("pong")
+
+}
+
+})
+
+
+
+Client.login("token của bot")
+
+
+
+
+
+
+App location :https://discord.com/developers/applications
